@@ -1,0 +1,158 @@
+base_info:
+  title: 晨曦的小屋  # Site title
+  author: 晨曦  # Author name
+  url: https://www.xcx2006.github.io # Site url
+style:
+  # Theme primary color
+  primary_color: "#005080"
+
+  # Avatar (You can use local image or image external link)
+  avatar: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4 # avatar of the author
+
+  # Favicon (You can use local image or image external link)
+  favicon: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4 # favicon of the site
+
+  # Article image align position
+  article_img_align: center # value: left | center
+
+  # Right side width
+  right_side_width: 210px #sidebar width, for toc
+
+  # Content area max width
+  content_max_width: 1000px #content max width, for article
+
+  #navigation bar background color (from left to right)
+  nav_color:
+    left: "#f78736" #left side
+    right: "#367df7"  #right side
+    transparency: 10 #percent (10-99)
+
+  # Mouse hover
+  hover:
+    shadow: true # shadow effect when the mouse hover
+    scale: true # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: true
+    background_image:
+      light: https://gitee.com/xuchengxiblog/xuchengxiblog.gitee.io/raw/master/picture/background1.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      dark: https://gitee.com/xuchengxiblog/xuchengxiblog.gitee.io/raw/master/picture/2.webp # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+    title_color:
+      light: "#fff" # first screen title color (light mode)
+      dark: "#fff" # first screen title color (dark mode)
+    description: 萍水相逢，尽是他乡之客 # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
+
+  # Scroll style settings
+  scroll:
+    progress_bar: # reading progress bar
+      enable: true
+    percent: # reading progress percent
+      enable: false
+social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
+  enable: true
+  links:
+    github: https://www.github.com/xcx2006 # your GitHub URL
+    zhihu:  # your ZhiHu URL
+    email:  xuchengxi2006@outlook.com # your email
+menu: #you can customize, i18n files are in the theme's languages folder. fa-regular recommended
+  Home:
+    path: /
+  Archives:
+    path: /archives
+  # Status:
+  #   path: https://status.evanluo.top/
+  #   icon: fa-regular fa-chart-bar
+  Categories:
+     path: /categories
+  # Picture:
+  #   submenus:
+  #     Me: /about
+  #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
+  #     Blog: https://www.evanluo.top
+  #     Friends: /friends
+   Links: fa-regular fa-link
+     icon: fa-regular fa-user
+     submenus:
+       关于: /about
+       留言板: /talk
+       说说: /essays
+       links: /friends
+home_article:
+  category:
+    enable: true     # show category in home page article block
+    limit: 3          # max number of categories shown in home page article block
+  tag:
+    enable: true     # show tags in home page article block
+    limit: 5          # max number of tags shown in home page article block
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
+
+  # Author label
+  author_label:
+    enable: true
+    auto: true  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # label array item can be one or more
+    custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
+code_copy:
+  enable: true
+lazyload:
+  enable: true
+fontawesome: # select fontawesome versions you want to use
+  thin: true # use fontawesome thin version or not
+  light: true # use fontawesome light version or not
+  duotone: true # use fontawesome duotone version or not
+cdn:
+  enable: false
+rss:
+  enable: false
+mathjax:
+  tags: none               # or 'ams' or 'all'
+  single_dollars: true     # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9           # relative CJK char width
+  normal_width: 0.6        # relative normal (monospace) width
+  append_css: true         # add CSS to every page
+  every_page: false        # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
+pjax:
+  enable: true
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: false
+    site_uv: false
+    site_pv: false
+    page_pv: false
+local_search:
+  enable: true
+# Feed Atom
+# npm install hexo-generator-feed
+footer:
+  runtime: true # show website running time or not
+  start_time: 2020/12/30 11:45:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
+  customize:  # customize footer message, can be html code
+  icp: # ICP record number of your website, Can be null
+# Inject the css and script (aplayer/meting)
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: false
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+
+  # If true, open TOC every time when you enter the article page
+  init_open: true
+comment:
+  enable: true
+  use: waline
+  waline:
+    serverUrl: https://talk.xuchengxi.tk/
+    lang: zh-CN
