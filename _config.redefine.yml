@@ -132,7 +132,7 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links
     links:
       github: https://www.github.com/xcx2006
@@ -175,11 +175,11 @@ navbar:
     About:
     #   icon: fa-regular fa-user
        submenus:
-         Me: /about
+         我: /about
     #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
     #     Blog: https://ohevan.com
          Friends: /friends
-    Links:
+    本站:
        submenus:
          留言板: /talk
          说说: /essays
@@ -187,7 +187,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
