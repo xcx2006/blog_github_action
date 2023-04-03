@@ -328,13 +328,13 @@ plugins:
   aplayer:
     enable: false # Whether to enable
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
+      - name: 風の住む街 # audio name
+        artist: 磯村由紀子 # audio artist
+        url: https://blog.xuchengxi.tk/files/%E7%A3%AF%E6%9D%91%E7%94%B1%E7%B4%80%E5%AD%90%20-%20%E9%A2%A8%E3%81%AE%E4%BD%8F%E3%82%80%E8%A1%97.mp3 # audio url
         cover: # audio cover url
-      - name:
-        artist:
-        url:
+      - name: The Truth That You Leave
+        artist: Pianoboy高至豪 
+        url: https://blog.xuchengxi.tk/files/Pianoboy高至豪 - The Truth That You Leave.mp3
         cover:
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
