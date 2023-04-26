@@ -49,7 +49,7 @@ jobs:
       - name: 部署到Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: 
+          token: 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
           repository-name: xcx2006/blog
           branch: main
           folder: public
