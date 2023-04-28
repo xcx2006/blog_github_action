@@ -1,7 +1,7 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+skip_render: admin/**/*
 # Site
 title: 晨曦的小屋
 subtitle: ''
