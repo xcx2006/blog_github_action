@@ -46,6 +46,7 @@ jobs:
           npm install --save
       - name: 生成静态文件
         run: |
+          ls
           hexo clean
           hexo g
       - name: 部署到Github
