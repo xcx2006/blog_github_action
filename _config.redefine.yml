@@ -49,7 +49,7 @@ global:
       url:  # Font URL to CSS file
     # English fonts
     english:
-      enable: true # Whether to enable custom chinese font
+      enable: false # Whether to enable custom chinese font
       family: myblog # Font family
       url: https://blog.xuchengxi.tk/files/Monaco.ttf # Font URL to CSS file
   # Content max width
