@@ -299,7 +299,7 @@ footer:
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: true # Whether to enable
-    number: 20237007 # ICP record number
+    number: 萌icp20237007备 # ICP record number
     url: https://icp.gov.moe/?keyword=20237007
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
