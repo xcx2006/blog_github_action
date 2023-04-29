@@ -1,8 +1,10 @@
 name: 自动部署
+# 当有改动推送到master分支时，启动Action
 on:
   push:
     branches:
       - main
+
   release:
     types:
       - published
@@ -49,7 +51,7 @@ jobs:
       - name: 部署到Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: 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
+          token: ${{ secrets.TOKEN }}
           repository-name: xcx2006/blog
           branch: main
           folder: public
