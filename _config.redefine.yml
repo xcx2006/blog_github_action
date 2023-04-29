@@ -49,9 +49,9 @@ global:
       url:  # Font URL to CSS file
     # English fonts
     english:
-      enable: false # Whether to enable custom chinese font
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true # Whether to enable custom chinese font
+      family: myblog # Font family
+      url: https://blog.xuchengxi.tk/files/Monaco.ttf # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
