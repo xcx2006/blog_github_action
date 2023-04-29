@@ -298,9 +298,9 @@ footer:
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
-    enable: false # Whether to enable
-    number: # ICP record number
-    url: # ICP record url
+    enable: true # Whether to enable
+    number: 20237007 # ICP record number
+    url: https://icp.gov.moe/?keyword=20237007
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -310,14 +310,15 @@ inject:
   enable: false
   # Inject custom head html code
   head:
-    -
-    -
+    - <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>
+    - <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+    - <script type="text/javascript" src="https://blog.xuchengxi.tk/files/js/snow.js"></script>
+    - <script src="https://g.joyinshare.com/hc/ribbon.min.js" type="text/javascript"></script>
   # Inject custom footer html code
   footer:
-    -
+    - <a href="https://icp.gov.moe/?keyword=20237007" target="_blank">萌ICP备20237007号</a>
     -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
 
 # PLUGINS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 plugins:
@@ -352,6 +353,6 @@ page_templates:
   # Friend Links page column number
   friends_column: 2
   # Tags page style
-  tags_style: cloud # blur, cloud
+  tags_style: blur # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
