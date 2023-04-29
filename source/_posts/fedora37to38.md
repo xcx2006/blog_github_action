@@ -1,4 +1,10 @@
-
+---
+title: fedora更新 悲
+date: 2023-04-29 14:59:53
+comment: true
+excerpt: "=("
+---
+```
 [xuchengxi@fedora 下载]$ sudo dnf system-upgrade download --releasever=38
 [sudo] xuchengxi 的密码：Before you continue ensure that your system is fully upgraded by running "dnf --refresh upgrade". Do you want to continue [y/N]: y
 Copr repo for onedriver owned by jstaf                                        245  B/s | 3.3 kB     00:13    
@@ -32,3 +38,4 @@ WineHQ packages                                                               2.
   - 软件包 kernel-lt-5.4.228-1.el7.elrepo.x86_64 与 iptables < 1.3.2-1（由 iptables-nft-1.8.9-2.fc38.x86_64 提供）冲突  - iptables-nft-1.8.8-4.fc37.x86_64 不属于 distupgrade 仓库  - 安装的软件包的问题 kernel-lt-5.4.228-1.el7.elrepo.x86_64
  问题 2: 安装的软件包的问题 libswscale-free-5.1.3-1.fc37.x86_64
   - 软件包 ffmpeg-libs-6.0-6.fc38.x86_64 与 libswscale-free（由 libswscale-free-6.0-2.fc38.x86_64 提供）冲突  - 软件包 ffmpeg-libs-6.0-6.fc38.x86_64 与 libswscale-free（由 libswscale-free-6.0-4.fc38.x86_64 提供）冲突  - 软件包 ffmpeg-6.0-6.fc38.x86_64 需要 ffmpeg-libs(x86-64) = 6.0-6.fc38，但没有提供者可以被安装  - libswscale-free-5.1.3-1.fc37.x86_64 不属于 distupgrade 仓库  - 冲突的请求
+```
