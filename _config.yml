@@ -165,7 +165,7 @@ live2d:
       model:
         use: live2d-widget-model-koharu #模型选择
       display:
-        position: bottom  #模型位置
+        position: top  #模型位置
         width: 150   #模型宽度
         height: 300  #模型高度
       mobile:
