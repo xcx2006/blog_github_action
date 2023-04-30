@@ -160,7 +160,7 @@ html_minifier:
     minifyJS: true
     minifyCSS: true
 live2d:
-      enable: true
+      enable: false
       scriptFrom: local
       model:
         use: live2d-widget-model-koharu #模型选择
