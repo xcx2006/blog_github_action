@@ -345,6 +345,8 @@ plugins:
   mermaid:
     enable: false # enable mermaid or not
     version: "9.3.0" # default v9.3.0
+snow:
+  enable: true
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
