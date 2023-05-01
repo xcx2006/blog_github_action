@@ -48,7 +48,7 @@ jobs:
         run: |
           ls
           hexo clean
-          hexo g
+          hexo g -f -c
       - name: 部署到Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
