@@ -310,14 +310,14 @@ inject:
   enable: false
   # Inject custom head html code
   head:
-    - <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>
-    - <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
-    - <script type="text/javascript" src="https://blog.xuchengxi.tk/files/js/snow.js"></script>
-    - <script src="https://g.joyinshare.com/hc/ribbon.min.js" type="text/javascript"></script>
+    -
   # Inject custom footer html code
   footer:
     - <a href="https://icp.gov.moe/?keyword=20237007" target="_blank">萌ICP备20237007号</a>
-    -
+    - <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script> 
+    - <script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script> 
+    - <script type="text/javascript" src="https://blog.xuchengxi.tk/files/js/snow.js"></script> 
+    - <script src="https://g.joyinshare.com/hc/ribbon.min.js" type="text/javascript"></script>
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 # PLUGINS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
