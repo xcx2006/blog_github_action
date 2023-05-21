@@ -93,6 +93,7 @@ fontawesome: # Pro v6.2.1
 # HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home_banner:
   # Whether to enable home banner
+  style: fixed
   enable: true
   # Home banner image
   image:
@@ -102,7 +103,7 @@ home_banner:
   title: 萍水相逢，尽是他乡之客
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: [Hello,world!] # subtitle text, array
     typing_speed: 100 # Typing speed (ms)
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
