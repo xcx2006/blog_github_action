@@ -357,10 +357,8 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
-    aplayer:
-    enable: false # Whether to enable
     audios:
       - name: 風の住む街 # audio name
         artist: 磯村由紀子 # audio artist
