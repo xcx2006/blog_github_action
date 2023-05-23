@@ -360,7 +360,7 @@ plugins:
     enable: false # Whether to enable
     type: fixed # fixed, mini
     aplayer:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     audios:
       - name: 風の住む街 # audio name
         artist: 磯村由紀子 # audio artist
