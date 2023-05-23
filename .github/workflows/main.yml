@@ -46,6 +46,7 @@ jobs:
           npm install --save
       - name: 生成静态文件
         run: |
+          cd
           ls
           hexo clean
           hexo g -f -c
