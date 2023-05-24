@@ -49,8 +49,6 @@ jobs:
           hexo clean
           hexo g -f -c
           hexo d
-        with:
-          token: ${{ secrets.TOKEN }}
       - name: 部署到Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
