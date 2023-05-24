@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: redefine
+theme: landscape # redefine
 deploy:
   type: git
   repo: https://github.com/xcx2006/xcx2006.github.io
