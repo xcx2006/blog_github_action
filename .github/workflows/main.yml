@@ -46,10 +46,11 @@ jobs:
           npm install --save
       - name: 生成静态文件
         run: |
-          cd
-          ls
           hexo clean
           hexo g -f -c
+          hexo d
+        with:
+          token: ${{ secrets.TOKEN }}
       - name: 部署到Github
         uses: JamesIves/github-pages-deploy-action@v4
         with:
