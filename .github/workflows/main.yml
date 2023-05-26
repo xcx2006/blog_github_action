@@ -44,6 +44,7 @@ jobs:
         run: |
           npm install gulp-cli -g #全局安装gulp
           npm install --save
+          npm install hexo-theme-redefine@latest
       - name: 生成静态文件
         run: |
           ls
