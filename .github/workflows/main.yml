@@ -27,6 +27,7 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
+          install hexo-theme-redefine@latest
       - name: 缓存 Hexo
         id: cache-npm
         uses: actions/cache@v3
@@ -48,7 +49,7 @@ jobs:
       - name: 生成静态文件
         run: |
           ls
-          install hexo-theme-redefine@latest
+
           hexo clean
           hexo g -f -c
       - name: 部署到Github
