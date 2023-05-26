@@ -27,7 +27,7 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
-          install hexo-theme-redefine@latest
+          npm install hexo-theme-redefine@latest
       - name: 缓存 Hexo
         id: cache-npm
         uses: actions/cache@v3
@@ -44,8 +44,8 @@ jobs:
         if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: |
           npm install gulp-cli -g #全局安装gulp
-          install --savenpm 
-          install hexo-theme-redefine@latest
+          npm install --savenpm 
+          npm install hexo-theme-redefine@latest
       - name: 生成静态文件
         run: |
           ls
