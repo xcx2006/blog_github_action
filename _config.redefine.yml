@@ -87,10 +87,8 @@ fontawesome: # Pro v6.2.1
   duotone: true
   # Sharp Solid version
   sharp_solid: true
-# FONTAWESOME <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+# FONTAWESOM
 
-
-# HOME BANNER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 home_banner:
   # Whether to enable home banner
   style: fixed
