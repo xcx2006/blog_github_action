@@ -43,11 +43,12 @@ jobs:
         if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: |
           npm install gulp-cli -g #全局安装gulp
-          npm install --save
-          npm install hexo-theme-redefine@latest
+          install --savenpm 
+          install hexo-theme-redefine@latest
       - name: 生成静态文件
         run: |
           ls
+          install hexo-theme-redefine@latest
           hexo clean
           hexo g -f -c
       - name: 部署到Github
