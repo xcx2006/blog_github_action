@@ -100,7 +100,7 @@ ignore:
 theme: redefine
 deploy:
   type: git
-  repo: https://github.com/xcx2006/xcx2006.github.io
+  repo: https://github.com/xcx2006/blog
   branch: main
 
 search:
