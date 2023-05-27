@@ -1,6 +1,11 @@
 ---
 title: Hexo零基础搭建个人博客
 date: 2020-01-01 18:59:53
+tags:
+    - "blog"
+    - "hexo"
+categories:
+    - "hexo"
 ---
 # Hexo零基础搭建个人博客
 Hexo是一个基于 node.js的快速生成静态博客的开源框架,支持 Markdown和大多数 Octopress

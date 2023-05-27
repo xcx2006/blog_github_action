@@ -3,7 +3,12 @@ title: github_action翻车记录
 date: 2023-01-31 17:59:53
 comment: true
 excerpt: "我真傻，真的。我单知道github_action自动搭建博客比较困难，可…"
-thumbnail: "https://i.328888.xyz/2023/02/01/8Jfht.md.jpeg"
+tags:
+    - "翻车"
+    - "github"
+    - "hexo"
+categories:
+    - "github"
 ---
 这是我的配置文件
 ```
