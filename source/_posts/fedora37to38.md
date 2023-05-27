@@ -2,6 +2,12 @@
 title: fedora更新 悲
 date: 2023-04-29 14:59:53
 comment: true
+tags:
+    - "linux"
+    - "fedora"
+    - "翻车"
+categories:
+    - "linux"
 excerpt: "=("
 ---
 ```
