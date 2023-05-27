@@ -1,8 +1,11 @@
 ---
 title: 常用 Git 命令集合
 date: 2021-8-03 14:59:53
-tags: linux
-categories: linux
+tags:
+    - "linux"
+    - "git"
+categories:
+    - "linux"
 mathjax: true
 ---
 
