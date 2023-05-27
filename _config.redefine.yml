@@ -159,12 +159,9 @@ navbar:
       icon: fa-regular fa-house # can be empty
     文章:
        submenus:
-          归档:
-            path: https://blog.xuchengxi.tk/archives
-          分类:
-            path: https://blog.xuchengxi.tk/categories
-          标签:
-            path: https://blog.xuchengxi.tk/tags/
+          归档: /archives
+          分类: /categories
+          标签: /tags
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
