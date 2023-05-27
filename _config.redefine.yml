@@ -159,9 +159,9 @@ navbar:
       icon: fa-regular fa-house # can be empty
     文章:
        submenus:
-          归档: /archives
-          分类: /categories
-          标签: /tags
+         归档: /archives
+         分类: /categories
+         标签: /tags
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
