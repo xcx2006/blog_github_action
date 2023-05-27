@@ -157,14 +157,14 @@ navbar:
     Home:
       path: /
       icon: fa-regular fa-house # can be empty
-    Archives:
-      path: /archives
-  # Status:
-  #   path: https://status.evanluo.top/
-  #   icon: fa-regular fa-chart-bar
-    Categories:
-      path: /categories
-
+    文章:
+       submenus:
+          归档:
+            path: /archives
+          分类:
+            path: /categories
+          标签:
+            path: /https://blog.xuchengxi.tk/tags/
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
