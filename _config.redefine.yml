@@ -160,11 +160,11 @@ navbar:
     文章:
        submenus:
           归档:
-            path: /archives
+            path: https://blog.xuchengxi.tk/archives
           分类:
-            path: /categories
+            path: https://blog.xuchengxi.tk/categories
           标签:
-            path: /https://blog.xuchengxi.tk/tags/
+            path: https://blog.xuchengxi.tk/tags/
     # Archives:
     #   path: /archives
     #   icon: fa-regular fa-archive # can be empty
