@@ -56,5 +56,5 @@ jobs:
           token: ${{ secrets.TOKEN }}
           repository-name: xcx2006/blog
           branch: main
-          folder: all
+          folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
