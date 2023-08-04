@@ -1,4 +1,4 @@
-<div class="comments-container">
+<div class="comments-container pjax">
     <div id="comment-anchor"></div>
     <div class="comment-area-title">
         <i class="fa-solid fa-comments"></i>&nbsp;<%- __('comments') %>
@@ -13,6 +13,9 @@
 
         <% } else if (theme.comment.system === 'twikoo') { %>
             <%- partial('twikoo') %>
+        
+        <% } else if (theme.comment.system === 'giscus') { %>
+            <%- partial('giscus') %>
         
         <% } %>
     <% } %>

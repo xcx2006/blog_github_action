@@ -39,7 +39,7 @@
     "hexo-theme-butterfly": "^4.6.1",
     "hexo-theme-landscape": "^0.0.3",
     "hexo-theme-melody": "^1.9.1",
-    "hexo-theme-redefine": "^2.1.0",
+    "hexo-theme-redefine": "^2.3.0",
     "hexo-uglify": "^2.0.0",
     "live2d-widget-model-koharu": "^1.0.5",
     "pug": "^3.0.2"

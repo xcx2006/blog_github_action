@@ -12,7 +12,7 @@ function initTOC() {
       updateActiveTOCLink() {
         if (!Array.isArray(Global.utils.sections)) return;
         let index = Global.utils.sections.findIndex(element => {
-          return element && element.getBoundingClientRect().top - 200 > 0;
+          return element && element.getBoundingClientRect().top - 100 > 0;
         });
         if (index === -1) {
           index = Global.utils.sections.length - 1;
@@ -25,25 +25,9 @@ function initTOC() {
       registerTOCScroll() {
         Global.utils.sections = [...document.querySelectorAll('.post-toc li a.nav-link')].map(element => {
           const target = document.getElementById(decodeURI(element.getAttribute('href')).replace('#', ''));
-          element.addEventListener('click', event => {
-            event.preventDefault();
-            const offset = target.getBoundingClientRect().top + window.scrollY;
-            window.anime({
-              targets: document.scrollingElement,
-              duration: 500,
-              easing: 'linear',
-              scrollTop: offset - 10,
-              complete: function () {
-                setTimeout(() => {
-                  Global.utils.pageTop_dom.classList.add('hide');
-                }, 100)
-              }
-            });
-          });
           return target;
         });
       },
-
 
 
       activateTOCLink(index) {
@@ -57,23 +41,9 @@ function initTOC() {
           element.classList.remove('active', 'active-current');
         });
         target.classList.add('active', 'active-current');
-      
-        // Scroll to the active TOC item and keep it centered
-        const tocElement = document.querySelector('.toc-content-container');
-        const tocRect = tocElement.getBoundingClientRect();
-        const targetRect = target.getBoundingClientRect();
-        const scrollTopOffset = tocElement.offsetHeight > window.innerHeight ? (tocElement.offsetHeight - window.innerHeight) / 2 : 0;
-        const targetTop = targetRect.top - tocRect.top + tocElement.scrollTop;
-        const targetCenter = targetTop - scrollTopOffset + (targetRect.height / 2);
-        const tocCenter = tocRect.top + (tocRect.height / 2);
-        const scrollOffset = targetCenter - tocCenter;
-        window.anime({
-          targets: tocElement,
-          duration: 400,
-          easing: 'easeOutQuad',
-          scrollTop: tocElement.scrollTop + scrollOffset
-        });
+
       },
+      
       
 
       showTOCAside() {
@@ -110,8 +80,9 @@ function initTOC() {
   }
 }
 
-if (Global.theme_config.global.pjax === true && Global.utils) {
+swup.on('pageView', () => {
   initTOC();
-} else {
-  window.addEventListener('DOMContentLoaded', initTOC);
-}
+});
+
+window.addEventListener('DOMContentLoaded', initTOC);
+

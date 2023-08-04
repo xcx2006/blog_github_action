@@ -1,11 +1,15 @@
 <%- partial('_widgets/progress-bar') %>
-<main class="page-container">
+<main class="page-container" id="swup">
+    
 
     <% if (theme.home_banner.enable === true && is_home() && !page.prev) { %>
         <%- partial('_partials/home-banner') %>
+    <% } else if (theme.home_banner.enable === true && is_home() && page.prev && theme.home_banner.style === "fixed") { %>
+        <%- partial('_partials/home-background') %>
     <% } %>
 
     <div class="main-content-container">
+        
 
         <div class="main-content-header">
             <%- partial('_partials/navbar') %>
@@ -21,6 +25,7 @@
 
                 <% if (is_home()) { %>
                     <%- partial('_partials/home-content') %>
+                    <div class="comment-container pjax"></div>
                 <% } else if (is_archive()) { %>
                     <%- partial('archive-content') %>
 
@@ -78,5 +83,7 @@
 
 
 </main>
+
+<%- partial('_plugins/swup') %>
 
 
