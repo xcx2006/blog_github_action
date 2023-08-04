@@ -250,7 +250,7 @@ articles:
     # Max number of articles to display
     limit: 3
     # Placeholder image
-    placeholder: /images/wallhaven-wqery6-light.webp
+    placeholder: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
