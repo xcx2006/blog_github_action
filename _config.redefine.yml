@@ -331,15 +331,15 @@ plugins:
     audios:
       - name: 風の住む街 # audio name
         artist: 磯村由紀子 # audio artist
-        url: https://blog.xuchengxi.tk/files/%E7%A3%AF%E6%9D%91%E7%94%B1%E7%B4%80%E5%AD%90%20-%20%E9%A2%A8%E3%81%AE%E4%BD%8F%E3%82%80%E8%A1%97.mp3 # audio url
+        url: https://blog.starlit.icu/files/%E7%A3%AF%E6%9D%91%E7%94%B1%E7%B4%80%E5%AD%90%20-%20%E9%A2%A8%E3%81%AE%E4%BD%8F%E3%82%80%E8%A1%97.mp3 # audio url
         cover: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4
       - name: The Truth That You Leave
         artist: Pianoboy高至豪 
-        url: https://blog.xuchengxi.tk/files/Pianoboy高至豪 - The Truth That You Leave.mp3
+        url: https://blog.starlit.icu/files/Pianoboy高至豪 - The Truth That You Leave.mp3
         cover: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4
       - name: Windy Hill
         artist: 羽肿
-        url: https://blog.xuchengxi.tk/files/羽肿 - Windy Hill.mp3
+        url: https://blog.starlit.icu/files/羽肿 - Windy Hill.mp3
         cover: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
